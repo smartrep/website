@@ -1,0 +1,19 @@
+/*the more specific the assignment, the less it gets overwritten by following statements. It goes from least to most specific:
+identifier
+identifier.name_of_class
+identifier#id
+*/
+p#main {
+	color: red;
+	font-size: 400%;
+}
+
+/* but matching by tag& class name is more specific than just class:*/
+
+.primary{
+	color:green;
+}
+
+p.primary{
+	color:black;
+}

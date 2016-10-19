@@ -1,0 +1,59 @@
+body {
+	margin:0;
+	background:#255;
+}
+
+header {
+	background:#888;
+	color:white;
+	padding: 5px 10px;
+}
+
+header h1 {
+	margin:0;
+	display:inline; /*the header title and rthe nav ul are bothe inline, so theyll line up*/
+
+}
+
+nav ul{
+
+	margin:0;
+	display: inline;
+	padding: 0 0 0 10px;
+
+}
+
+nav ul li {
+	list-style-type: none; /*default: small bullets before each elem of the list, now: nothing*/
+	display:inline-block;	/*the list appears in a horizontal line*/
+	background:black;
+	color: white;/*it still appears blue cuz of the hyperlink*/
+	margin: 12px; /*spacings between the list elem*/
+	padding: 5px 10px 5px 10px; /*these are margins inseide the little black boxes*/
+}
+
+nav ul li a {
+	color: white;
+}
+
+div {
+	color:white;
+}
+
+.row /*class row*/ {
+	
+}
+
+.col {
+	background:#277;
+	float: left;
+	padding:10px 0px 10px 10px;
+	border-radius: 35%;
+	margin:1%;  /* percent makes adjustments to the device in question*/
+	width: 30%; /* if 100% are exceeded, it just takes another line*/
+	
+}
+
+footer {
+	clear: both; /* clears ,e.g. ignore aoth float right & left*/
+}

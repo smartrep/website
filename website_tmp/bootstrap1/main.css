@@ -1,0 +1,59 @@
+.dark {
+	background: #666;
+	color: white;
+}
+
+.darker {
+	background: #888;
+	color: white;
+
+}
+
+.darkest {
+	background: #999;
+	color: white;
+}
+
+.container{
+	background: #411;
+}
+
+/* generally, its good to keep things alphabetical*/
+
+.mypanel {
+	margin: 3%;
+	border: 3px solid #08967F;
+	border-radius: 5px 5px 0 0; /*only left top corner is rounded*/
+	/* box-shadow has: "x y blur color" */
+	box-shadow: 10px 10px 10px #076B5A;
+
+
+}
+
+.mypanel .heading {  /*beware: if no space between htem, i tlooks for elem with BOTH classes, e.g. <div class=" class1 class2"*/
+	background: #05F5CD;
+	color: #08967F;
+	border: 3px solid #08967F;
+	border-radius: 5px 5px 0 0; /*only left top corner is rounded*/
+	-webkit-border-radius:5px 0 0 0 ;
+	-moz-border-radius: 5px 0 0 0; /*for older browsers, just forget it*/
+	padding: 10px 20px;
+}
+
+.mypanel .body {
+	padding: 10px 20px;
+}
+
+.mypanel .showOnHover {
+	display: none;
+}
+
+.mypanel:hover {
+
+	box-shadow: 20px 20px 10px #FF0FEF;
+
+}
+
+.mypanel:hover .showOnHover{
+	display: inline-block;
+}

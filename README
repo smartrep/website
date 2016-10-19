@@ -1,0 +1,13 @@
+Seas, wie ihr sieht is hier einiges Neues: die .htmls kommen jetzt auch in _en und _fr Ausführung sodass ihr diese nur noch zu editen habt. 
+Dabei ist wichtig, dass ihr auch die entsprechenden internen Links entsprechend ändert. Beispiel: Ich bin auf tv_fr.html und klicke oben auf Beamer Reparaturen, bzw. "Dépannages projecteur", dann möchte ich auch auf beamer_fr.html landen, nciht auf beamer.html.
+Viel Spass damit, Sonntag is deadline.
+Lasslo, du musst noch das Bild vom HTPC unter laptops.html abändern, bitte, damit hättma v2.3, wo dann nur noch 2 Bilder ohne Lizenz sind. (Hab noch keine Antwort per EMail bekommen was die betrifft).
+
+*update*
+1) Lasslo, HTPC
+2) Ferhat und Lasslo, bitte bei den übersetzten Seiten vor der Preistabelle bei den Seiten ls, tv und laptops eine Zeile springen, sonst schneidet es sich mitm Carousel.
+Dazu: <br> nach der Überklasse einfügen wie folgt:
+
+    <!-- Default Tables styles -->
+    <div class="row margin-bottom-20"><br>
+        <div class="col-md-6">

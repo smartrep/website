@@ -1,0 +1,85 @@
+/* main page layout */
+#w ul { list-style:none;}
+
+/* sorting and filtering */
+.list-inline > li {
+    padding: 0px;
+    margin: 0;
+}
+.sort { display: block; font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 14px; color: #fff; }
+/*.sort ul { text-align:;}*/
+.sort ul {margin-bottom: 20px;}
+.sort li:first-child {padding-left: 0;}
+.sort li a {
+    color: #0088cc;
+    line-height: 14px;
+    padding:5px 12px;
+    margin: 2px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.sort li a:focus, .sort li a:hover {
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+.sort li a.selected {
+    color: #fff;
+    background-color: #0088CC;
+
+}
+
+/* portfolio items */
+.portfolio { 
+	width:100%;
+	display: block;
+	text-align:center; 
+	padding: 0px 0 0 0;
+	margin: 0 0 10px;
+    list-style: none;
+}
+
+.portfolio li { 
+  float: left; 
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portfolio li:nth-child(4n+4){
+    margin-right:0;
+}
+@media (min-width: 767px) and (max-width: 1025px) {
+    .portfolio li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 766px){
+    .portfolio li {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .portfolio li:nth-child(2n+2){
+        margin-right:0;
+    }
+}
+@media (max-width: 361px){
+    .portfolio li {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+.portfolio li a { 
+  display: block; 
+  -webkit-transition: all 0.35s linear; 
+  -moz-transition: all 0.35s linear; 
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+
+/* clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

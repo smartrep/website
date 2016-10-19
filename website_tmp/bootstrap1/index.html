@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Reparaturen mark-o-solo</title>
+		<link href="main.css" type="text/css" rel="stylesheet" />
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+
+
+		
+	</head>
+
+
+	<body>
+
+
+		<header class="navbar-inverse" role="banner">
+			<!-- class navbar gives me the fullwidth thing. 
+			navbar-inverse gives darkish surroundings,
+			navbar default ist lightgrey-->
+			<div class="container">
+				<!-- class container gives us that centered look-->
+				<nav class="navbar navbar-default" role="navigation">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">Brand</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">Link</a></li>
+				        <li><a href="#">Link</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+				          <ul class="dropdown-menu" role="menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+
+				      
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</header>	
+
+		<!---->
+		<div class="container">
+			<div class="row">
+				<div class="dark col-sm-6">
+								<!-- this gives 6 columns. the entire thing will be responsive and adapt to the screen size-->
+
+					<a href="http://www.sportsshoes.com/de-de/produkt/ron89/ronhill-classic-gt-trackster-laufen-hose/" class="btn btn-primary">sporthose</a>
+					<!--i am creating a sublass "a" for a button: btn. btn-primary gives it a color suzccess is green, warning yellow, and primary is blue-->
+					<a href="#" class="btn btn-warning">Button</a>
+					<a href="#" class="btn btn-success">Button</a>
+				</div>
+				<div class="darker col-sm-3">test</div>
+				<div class="darkest col-sm-3">test</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="column">
+				<div class="panel panel-default">
+				  <div class="panel-heading">widget1</div>
+				  <div class="panel-body">
+				    <ul>
+				    	<li><a href="http://getbootstrap.com/components/">bootstrap</a></li>
+				    	<li><a href="https://movies.yahoo.com/blogs/yahoo-movies/25-best-movies-2013-073214602.html">25 best movies 2013</a></li>
+				    </ul>
+				  </div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- What can also be done is to make the same procedure as above, e.g. make three columns test1, test2, test3 and add a panel to each of them:-->
+
+		<div class="container">
+			<div class="row">
+				<div class="dark col-sm-4">
+
+					<div class="panel panel-default">
+				  <div class="panel-heading">widget1</div>
+				  <div class="panel-body">
+				    <a href="http://www.sportsshoes.com/de-de/produkt/ron89/ronhill-classic-gt-trackster-laufen-hose/" class="btn btn-primary">sporthose</a>
+					<!--i am creating a sublass "a" for a button: btn. btn-primary gives it a color suzccess is green, warning yellow, and primary is blue-->
+					<a href="#" class="btn btn-warning">Button</a>
+					<a href="#" class="btn btn-success">Button</a>
+				  </div>
+				</div>
+								<!-- this gives 6 columns. the entire thing will be responsive and adapt to the screen size-->
+
+					
+				</div>
+
+
+				<div class="darker col-sm-4">
+					<div class="panel panel-primary"> <!--same as for the buttons, add danger for red-->
+				  <div class="panel-heading">widget1</div>
+				  <div class="panel-body  text-danger">
+				    <ul>
+				    	<li><a href="http://getbootstrap.com/components/">bootstrap</a></li>
+				    	<li><a href="https://movies.yahoo.com/blogs/yahoo-movies/25-best-movies-2013-073214602.html">25 best movies 2013</a></li>
+				    </ul>
+				  </div>
+				</div>
+				</div>
+
+
+				<div class="darkest col-sm-4">
+					<div class="panel panel-warning">
+					  <div class="panel-heading">widget1</div>
+					  <div class="panel-body">
+					    <ul>
+					    	<li><a href="http://getbootstrap.com/components/">bootstrap</a></li>
+					    	<li><a href="https://movies.yahoo.com/blogs/yahoo-movies/25-best-movies-2013-073214602.html">25 best movies 2013</a></li>
+					    </ul>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- now, to create suich a panel via css ourselves:-->
+
+		<div class="mypanel">
+			<div class="heading">My header</div>
+			<div class="body">
+				<p>my body</p>
+				
+			</div>
+
+		</div>
+
+		<div class="mypanel">
+			<div class="heading">My header</div>
+			<div class="body">
+				<p>my body</p>
+				<div class="showOnHover">
+					<a href="#" class="btn btn-xs btn-danger">delete</a>
+				</div>
+				
+			</div>
+
+		</div>
+
+
+		<div class="mypanel">
+			<div class="heading">My header</div>
+			<div class="body">
+				<p>my body</p>
+				
+			</div>
+
+		</div>
+
+			
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins)  SCRIPTS ALWAYS AT THE BOTTOM-->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+		<!--the further the script is down, the faster the page will be handled but stylsheets go up: we can show the page and wait for the functoin to load later-->
+	<body/>
+
+</html>

@@ -1,0 +1,23 @@
+body {
+	background:#999;
+	font-family: comic;
+}
+
+h1, h2 {
+	color: #555
+}
+
+p {
+	background: #666;
+	color:orange;
+	padding: 10px 20px 40px;
+	/*top-bottom left-right */
+	/* if i made a list of four pixel spacings its like a clock starting on top*/
+}
+
+/*dot looks for class*/
+
+.sec {
+	background:none;
+	color: red;
+}
